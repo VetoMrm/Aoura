@@ -16,11 +16,6 @@ body {
     color: rgb(70, 62, 62);
 }
 
-.mainBox {
-    border-radius: 10rem;
-    border: 1px solid blue;
-}
-
 .googBut {
     width: 15rem;
     background-color: red !important;
@@ -44,4 +39,17 @@ body {
 
 .title2 {
     font-size: 15px;
+}
+
+.verticalLine {
+    border-right: thick solid #ff0000;
+}
+
+.horizontalLine {
+    border-top: 2px solid #ff0000;
+}
+
+.foot {
+    color: black;
+    font-weight: 600;
 }
