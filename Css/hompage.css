@@ -1,8 +1,221 @@
-.navLogo {
-    width: 30%;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 50px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    margin-top: 5px;
+    color: #000000 !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar-nav li a .fa {
+    margin-left: 10px;
+}
+
+.fa {
+    color: black;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.ml-auto {
+    padding: 10px;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 50px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    margin-top: 5px;
+    color: #000000 !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar-nav li a .fa {
+    margin-left: 10px;
+}
+
+.fa-bars {
+    color: black;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.ml-auto {
+    padding: 10px;
+}
+
+.headBut:hover {
+    /* background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%); */
+    background-color: green;
+}
+
+.headerBtn {
+    box-shadow: none;
+    padding: 8px 30px;
+    margin-right: 16px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-weight: 500;
+    color: black;
+    background-color: transparent;
+}
+
+.headerBtn:hover {
+    background-color: red;
+    color: white;
 }
 
 #mainPage {
     padding: 30px 0;
     background-color: rgb(236, 236, 236);
+}
+
+.askQues {
+    background-color: red !important;
+    font-weight: 600 !important;
+    color: white !important;
+    border-radius: 50px !important;
+}
+
+.Sear {
+    border: 1px solid black !important;
+}
+
+.fa-home {
+    font-size: 22px !important;
+}
+
+.fa-paper-plane-o {
+    font-size: 22px !important;
+}
+
+.fa-users {
+    font-size: 22px !important;
+}
+
+.fa-bell-o {
+    font-size: 22px !important;
+}
+
+li {
+    border: none !important;
+}
+
+.badg {
+    width: 30%;
+}
+
+.list-group-item {
+    background: transparent !important;
+    font-size: 13px;
+}
+
+.prof {
+    width: 2rem;
+    border-radius: 50% !important;
+}
+
+.profTit {
+    font-size: 10px;
+    color: cadetblue;
+}
+
+.FirstCardTit {
+    margin-left: 17px;
+    font-size: 20px;
+    font-weight: 600;
+    color: cadetblue;
+}
+
+.CardTit1 {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.CardTit2 {
+    font-size: 10px;
+    color: cadetblue;
+}
+
+.fa-times {
+    font-size: 18px !important;
+    font-weight: 200 !important;
+}
+
+.CardTit3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stats {
+    font-size: 13px;
+    color: cadetblue;
+}
+
+.foot {
+    font-size: 15px !important;
+}
+
+.fa-arrow-up {
+    font-size: 18px !important;
+}
+
+.fa-refresh {
+    font-size: 18px !important;
+}
+
+.fa-comment-o {
+    font-size: 18px !important;
+}
+
+.fa-arrow-down {
+    font-size: 18px !important;
+}
+
+.fa-share {
+    font-size: 18px !important;
+}
+
+.fa-ellipsis-h {
+    font-size: 18px !important;
 }

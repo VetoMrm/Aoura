@@ -6,53 +6,383 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="/Assets/favicon-16x16.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/Css/hompage.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <!---------------------------------------------------- NavBAr ------------------------------------>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="/Assets/Voura.jpg" class="navLogo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <!------------------------------------------------------- Header Section ---------------------------------------->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="/index.html"><img src="/Assets/Voura.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <i class="fa fa-bars"></i>
+   </button>
+            <div class="collapse navbar-collapse animated fadeInDown" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/index.html"><i class="fa fa-home"></i> &nbsp;Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Answers.html"><i class="fa fa-paper-plane-o"></i>&nbsp;Answer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                        <a class="nav-link " href="#Testimonials"><i class="fa fa-users"></i>&nbsp;Spaces</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link " href="#footer-sec"><i class="fa fa-bell-o"></i>&nbsp;Notification</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                <div class="ml-auto">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2 Sear" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success my-2 my-sm-0 askQues" type="submit">Add Question</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
 
     <section id="mainPage">
-        <p>hii</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="list-group unordered">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Feed
+                            <span class="badge badge-primary badge-pill">14</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Company
+                            <span class="badge badge-primary badge-pill">2</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Work
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Photography
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Computer Programming
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Jobs and careers
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Amazon India
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            M S Dhoni
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Samsung
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Bengaluru
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Sarfaraz Khan
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Ajay Devgan
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="container">
+                            <div class="row mt-2">
+                                <div class="col-md-1">
+                                    <img src="/Assets/profile.jpg" class="prof mt-1 mb-1">
+                                </div>
+                                <div class="col-md-11">
+                                    <h6 class="mt-3 profTit">
+                                        Manjunath Mesta
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="FirstCardTit">What is your question or link?</p>
+                    </div>
+                    <div class="card mt-2">
+                        <div class="container">
+                            <div class="row mt-2">
+                                <div class="col-md-1">
+                                    <img src="/Assets/profile.jpg" class="prof mt-1 mb-1">
+                                </div>
+                                <div class="col-md-10">
+                                    <h6 class="CardTit1"><b>Siddharth Pandey</b>&nbsp;.April 15</h6>
+                                    <h6 class="CardTit2">B.tech Civil Engineering, Madan Mohan Malaviya University of Technology <br>(Graduated 2019)</h6>
+                                    <h6></h6>
+                                </div>
+                                <div class="col-md-1">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ml-3 mr-3 mt-2">
+                            <p class="CardTit3">What is the best life advice you would give?</p>
+                            <img src="/Assets/voraimg1.jpg" class="img-fluid">
+                            <p class="mt-2">Recently, at the age of 28, I managed to own this beautiful villa in south delhi and the car that I drive can be seen in the below picture.</p>
+                            <img src="/Assets/vouraimg2.jpg" class="img-fluid">
+                            <p class="mt-2">This is Mercedes benz C class , that I drive.</p>
+                            <p class="mt-2"><b><i>About Myself :</i></b></p>
+                            <p class="mt-2">
+                                I accomplished what I dreamed of, Iam currently working for a MNC, I earn around 1.5 Cr annually, I left my parents after my marriage and my wife left me after few years of our marriage because we are not meant for each other, we realized later. I am
+                                a drug addict, I drink a lot, i remain frustrated most of the time, I don't remember the last time I laughed, my life has just become hell, I am praying to end it as soon as possible.
+                            </p>
+                            <p><b>These are the actual words of a person, I read just few days back.</b></p>
+                            <p class="mt-2"><i>Now please read the complete answer if came till this point. you will find something different in the end.                            </i></p>
+                            <img src="/Assets/vouraimg3.jpg" class="img-fluid">
+                            <p class="mt-2">I own this house in a small village of uttar pradesh with the help of loan that I borrowed from the landlord.</p>
+                            <img src="/Assets/vouraimg4.jpg" class="img-fluid">
+                            <p class="mt-1">This is my bike that I drive and I managed to own this with the help of my savings that I saved in past 4 years.</p>
+                            <p class="mt-2"><b>About myself:</b></p>
+                            <p class="mt-2">I am a 29 years old person living in a small village, I work in a factory as a supervisor and I manage to earn around 30K/month. I live with my family of 5, my wife, my parents and I was blessed with a daughter in the last
+                                year.
+
+                            </p>
+                            <p class="mt-3"><b>Now back to your question, best life advice I can give ?</b></p>
+                            <p class="mt-2">Be the person with the qualities of both, only money can't give you happiness and the life where you need to save 4 years to buy a budget friendly bike is also not worthy. So,
+
+                            </p>
+                            <p class="mt-3">
+                                <b>
+                                    Work hard and keep your hustle growing to accomplish your dreams.
+                                    <br>
+                                    Never believe that achieving something superficial will make you happy forever.
+                                </b>
+                            </p>
+                            <p class="mt-2">Note:- I read this in a comment on one of my post that money can't buy spirituality, wisdom, goodness, peace and i really liked that.</p>
+                            <p class="mt-2"><b>your smallest encouragement/suggestions inspires me to write more.</b></p>
+                            <p class="mt-2"><b>Thank you</b></p>
+                            <p class="mt-2"><b>Abhishek Mishra</b></p>
+                            <p class="mt-4 stats">366.8k views&nbsp;.&nbsp;view upvoters&nbsp;.&nbsp;view sharers</p>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="foot"><i class="fa fa-arrow-up"></i>&nbsp;&nbsp;11.2K&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-refresh"></i>&nbsp;&nbsp;54&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-comment-o"></i>&nbsp;&nbsp;202</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div style="float: right;">
+                                        <p><i class="fa fa-arrow-down"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-share"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-ellipsis-h"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="container">
+                            <div class="row mt-2">
+                                <div class="col-md-1">
+                                    <img src="/Assets/profile.jpg" class="prof mt-1 mb-1">
+                                </div>
+                                <div class="col-md-10">
+                                    <h6 class="CardTit1"><b>Siddharth Pandey</b>&nbsp;.April 15</h6>
+                                    <h6 class="CardTit2">B.tech Civil Engineering, Madan Mohan Malaviya University of Technology <br>(Graduated 2019)</h6>
+                                    <h6></h6>
+                                </div>
+                                <div class="col-md-1">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ml-3 mr-3 mt-2">
+                            <p class="CardTit3">If you like city building and strategy, Forge is a must-play.</p>
+                            <p class="mt-2">Journey through the ages--from the Stone Age to the Space Age--in this award-winning game.</p>
+                            <img src="/Assets/vouraimg4.jpg" class="img-fluid">
+                            <p class="mt-4 stats">366.8k views&nbsp;.&nbsp;view upvoters&nbsp;.&nbsp;view sharers</p>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="foot"><i class="fa fa-arrow-up"></i>&nbsp;&nbsp;11.2K&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-refresh"></i>&nbsp;&nbsp;54&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-comment-o"></i>&nbsp;&nbsp;202</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div style="float: right;">
+                                        <p><i class="fa fa-arrow-down"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-share"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-ellipsis-h"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="container">
+                            <div class="row mt-2">
+                                <div class="col-md-1">
+                                    <img src="/Assets/profile.jpg" class="prof mt-1 mb-1">
+                                </div>
+                                <div class="col-md-10">
+                                    <h6 class="CardTit1"><b>Siddharth Pandey</b>&nbsp;.April 15</h6>
+                                    <h6 class="CardTit2">B.tech Civil Engineering, Madan Mohan Malaviya University of Technology <br>(Graduated 2019)</h6>
+                                    <h6></h6>
+                                </div>
+                                <div class="col-md-1">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ml-3 mr-3 mt-2">
+                            <p class="CardTit3">What is the best life advice you would give?</p>
+                            <img src="/Assets/voraimg1.jpg" class="img-fluid">
+                            <p class="mt-2">Recently, at the age of 28, I managed to own this beautiful villa in south delhi and the car that I drive can be seen in the below picture.</p>
+                            <img src="/Assets/vouraimg2.jpg" class="img-fluid">
+                            <p class="mt-2">This is Mercedes benz C class , that I drive.</p>
+                            <p class="mt-2"><b><i>About Myself :</i></b></p>
+                            <p class="mt-2">
+                                I accomplished what I dreamed of, Iam currently working for a MNC, I earn around 1.5 Cr annually, I left my parents after my marriage and my wife left me after few years of our marriage because we are not meant for each other, we realized later. I am
+                                a drug addict, I drink a lot, i remain frustrated most of the time, I don't remember the last time I laughed, my life has just become hell, I am praying to end it as soon as possible.
+                            </p>
+                            <p><b>These are the actual words of a person, I read just few days back.</b></p>
+                            <p class="mt-2"><i>Now please read the complete answer if came till this point. you will find something different in the end.                            </i></p>
+                            <img src="/Assets/vouraimg3.jpg" class="img-fluid">
+                            <p class="mt-2">I own this house in a small village of uttar pradesh with the help of loan that I borrowed from the landlord.</p>
+                            <img src="/Assets/vouraimg4.jpg" class="img-fluid">
+                            <p class="mt-1">This is my bike that I drive and I managed to own this with the help of my savings that I saved in past 4 years.</p>
+                            <p class="mt-2"><b>About myself:</b></p>
+                            <p class="mt-2">I am a 29 years old person living in a small village, I work in a factory as a supervisor and I manage to earn around 30K/month. I live with my family of 5, my wife, my parents and I was blessed with a daughter in the last
+                                year.
+
+                            </p>
+                            <p class="mt-3"><b>Now back to your question, best life advice I can give ?</b></p>
+                            <p class="mt-2">Be the person with the qualities of both, only money can't give you happiness and the life where you need to save 4 years to buy a budget friendly bike is also not worthy. So,
+
+                            </p>
+                            <p class="mt-3">
+                                <b>
+                                    Work hard and keep your hustle growing to accomplish your dreams.
+                                    <br>
+                                    Never believe that achieving something superficial will make you happy forever.
+                                </b>
+                            </p>
+                            <p class="mt-2">Note:- I read this in a comment on one of my post that money can't buy spirituality, wisdom, goodness, peace and i really liked that.</p>
+                            <p class="mt-2"><b>your smallest encouragement/suggestions inspires me to write more.</b></p>
+                            <p class="mt-2"><b>Thank you</b></p>
+                            <p class="mt-2"><b>Abhishek Mishra</b></p>
+                            <p class="mt-4 stats">366.8k views&nbsp;.&nbsp;view upvoters&nbsp;.&nbsp;view sharers</p>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="foot"><i class="fa fa-arrow-up"></i>&nbsp;&nbsp;11.2K&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-refresh"></i>&nbsp;&nbsp;54&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-comment-o"></i>&nbsp;&nbsp;202</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div style="float: right;">
+                                        <p><i class="fa fa-arrow-down"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-share"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-ellipsis-h"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="container">
+                            <div class="row mt-2">
+                                <div class="col-md-1">
+                                    <img src="/Assets/profile.jpg" class="prof mt-1 mb-1">
+                                </div>
+                                <div class="col-md-10">
+                                    <h6 class="CardTit1"><b>Siddharth Pandey</b>&nbsp;.April 15</h6>
+                                    <h6 class="CardTit2">B.tech Civil Engineering, Madan Mohan Malaviya University of Technology <br>(Graduated 2019)</h6>
+                                    <h6></h6>
+                                </div>
+                                <div class="col-md-1">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ml-3 mr-3 mt-2">
+                            <p class="CardTit3">If you like city building and strategy, Forge is a must-play.</p>
+                            <p class="mt-2">Journey through the ages--from the Stone Age to the Space Age--in this award-winning game.</p>
+                            <img src="/Assets/vouraimg4.jpg" class="img-fluid">
+                            <p class="mt-4 stats">366.8k views&nbsp;.&nbsp;view upvoters&nbsp;.&nbsp;view sharers</p>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="foot"><i class="fa fa-arrow-up"></i>&nbsp;&nbsp;11.2K&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-refresh"></i>&nbsp;&nbsp;54&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-comment-o"></i>&nbsp;&nbsp;202</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div style="float: right;">
+                                        <p><i class="fa fa-arrow-down"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-share"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-ellipsis-h"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Feed
+                            <span class="badge badge-primary badge-pill">14</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Company
+                            <span class="badge badge-primary badge-pill">2</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Work
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Photography
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Computer Programming
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Jobs and careers
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Amazon India
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            M S Dhoni
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Samsung
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Bengaluru
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Sarfaraz Khan
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Ajay Devgan
+                            <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
