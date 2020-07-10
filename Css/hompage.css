@@ -219,3 +219,67 @@ li {
 .fa-ellipsis-h {
     font-size: 18px !important;
 }
+
+.starBad {
+    width: 60%;
+}
+
+.answerTit {
+    color: cadetblue;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.horizontalLine {
+    border-top: 1px solid cadetblue;
+}
+
+.fa-angle-down {
+    font-size: 18px !important;
+}
+
+.eofImg {
+    width: 30%;
+}
+
+.eoftit {
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.eofbut {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%) !important;
+    color: white !important;
+    font-weight: 600 !important;
+    width: 10rem;
+    border-radius: 10% !important;
+}
+
+.cardsidetiti {
+    color: cadetblue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cardsidebut {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%) !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+
+#NoticationPage {
+    padding: 30px 0;
+}
+
+.notifiIg {
+    width: 30%;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
